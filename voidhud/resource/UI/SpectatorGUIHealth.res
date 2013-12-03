@@ -79,7 +79,7 @@
         "ypos" "12"
         "zpos" "6"
         "wide" "35"
-        "fgcolor" "255 255 255 255"
+		"fgcolor" "255 255 255 255"
         "tall" "15"
         "visible" "1"
         "enabled" "1"
