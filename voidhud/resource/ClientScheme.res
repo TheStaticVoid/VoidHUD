@@ -152,6 +152,9 @@ Scheme
         "UpgradeSelectedBg"     "249 138 83 255"
         "UpgradeDisabledFg"     "64 59 52 255"
         "UpgradeDisabledBg"     "79 77 68 255"
+        
+        "BuffedBlue"        "0 200 255 200"
+        "LowHPRed"          "255 50 40 255"
     }
 
     ///////////////////// BASE SETTINGS ////////////////////////

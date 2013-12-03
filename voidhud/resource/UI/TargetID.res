@@ -20,8 +20,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"r9999"
+		"ypos"			"r9999"
 		"zpos"			"-1"
 		"wide"			"200"
 		"tall"	 		"5"
@@ -47,8 +47,8 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"r9999"
+		"ypos"			"r9999"
 		"zpos"			"-1"
 		"wide"			"200"
 		"tall"	 		"5"
@@ -69,8 +69,8 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"r9999"
+		"ypos"			"r9999"
 		"zpos"			"-1"
 		"wide"			"200"
 		"tall"	 		"5"
@@ -93,8 +93,8 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"HudFontSmall"
-		"xpos"			"36"
-		"ypos"			"16"
+		"xpos"			"37"
+		"ypos"			"14"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -113,7 +113,7 @@
 		"fieldName"		"TargetDataLabel"
 		"font"			"TFFontMedium"
 		"xpos"			"34"
-		"ypos"			"30"	[$WIN32]
+		"ypos"			"25"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
