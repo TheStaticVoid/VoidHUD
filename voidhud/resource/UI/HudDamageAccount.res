@@ -6,8 +6,8 @@
 "text_x"     "0"
 "text_y"     "0"
 "delta_item_end_y"  "0"
-"PositiveColor"  "255 255 255 200"
-"NegativeColor"  "255 255 255 200"
+"PositiveColor"  "255 255 0 255"
+"NegativeColor"  "255 255 0 255"
 "delta_lifetime"     "1.5"
 "delta_item_font"    "HudSquareFontSmall"
 "delta_item_font_big"   "HudSquareFontMedium"
@@ -25,7 +25,7 @@
 "enabled"    "1"
 "labelText"  "%metal%"
 "textAlignment" "west"
-"fgcolor"    "White"
+"fgcolor"    "255 255 0 255"
 "font"      "HudSquareFontMedium"
 }
 

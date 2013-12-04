@@ -113,7 +113,7 @@
         "font"          "HudSquareFontMedium"
 //      "font_lodef"    "HudFontMedium"
 //      "font_minmode"  "HudFontSmall"
-        "fgcolor"       "TransparentBlack"
+        "fgcolor"       "Black"
         "xpos"          "61"
         //"xpos_minmode"  "66"
         "ypos"          "10"

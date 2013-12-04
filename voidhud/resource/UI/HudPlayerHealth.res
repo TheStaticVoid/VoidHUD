@@ -53,7 +53,7 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusHealthBonusImage"
-        "xpos"          "50"    [$WIN32]
+        "xpos"          "52"    [$WIN32]
 //      "xpos_minmode"  "65"    [$WIN32]
         "xpos"          "83"    [$X360]
         "ypos"          "20"    [$WIN32]
@@ -128,7 +128,7 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusMilkImage"
         "xpos"          "150"
-//      "xpos_minmode"  "102"
+//      "xpos_minmode"  "70"
         "ypos"          "0"
         "zpos"          "7"
         "wide"          "32"
