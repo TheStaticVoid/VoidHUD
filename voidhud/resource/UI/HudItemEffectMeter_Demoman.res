@@ -63,7 +63,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"100"
+		"xpos"					"20"
 		"ypos"					"23"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
@@ -84,7 +84,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"50"
+		"xpos"					"25"
 		"ypos"					"10"
 		"zpos"					"2"
 		"wide"					"40"
@@ -97,6 +97,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		"font"					"HudSquareFontMedium"
+        "fgcolor"               "White"
 	}
 }
