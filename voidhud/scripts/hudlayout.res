@@ -749,9 +749,8 @@
         "item_wide" "135"
         
         "show_avatar"       "1"
-        
         "show_dead_icon"    "1"
-        "dead_xpos"         "1"
+        "dead_xpos"         "-2"
         "dead_ypos"         "0"
         "dead_wide"         "16"
         "dead_tall"         "16"
@@ -762,7 +761,7 @@
         "icon_tall"         "16"
         "icon_wide"         "16"
         
-        "text_xpos"         "50"
+        "text_xpos"         "28"
     }
 
     HudHintDisplay
