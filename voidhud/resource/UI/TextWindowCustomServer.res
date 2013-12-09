@@ -16,6 +16,40 @@
 		"settitlebarvisible"	"0"
 	}
 	
+	"BG"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"BG"
+		"xpos"			"c-330"
+		"ypos"			"2"
+		"zpos"			"-1"
+		"wide"			"660"
+		"tall"			"380"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		
+		"draw_corner_width"		"3"
+		"draw_corner_height" 	"3"
+	}
+	
+	"Shade"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Shade"
+		"xpos"		"-10"
+		"ypos"		"-10"
+		"zpos"		"-100"
+		"wide"		"10000"
+		"tall"		"500"
+		"fillcolor"		"0 0 0 195"
+	}
+	
 	"TFMessageTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -33,8 +67,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"ChalkboardTitle"
-		"fgcolor"		"White"
+		"font"			"HudSurfaceFontMedium"
+		"fgcolor"		"240 240 240 255"
 	}	
 
 	"TextMessage"
@@ -47,21 +81,21 @@
 
 	"TFTextMessage"
 	{
-		"ControlName"	"CExRichText"
+		"ControlName"	"CTFRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"ChalkboardText"
-		"xpos"			"c-184"
-		"ypos"			"125"
+		"font"			"HudFontSmall"
+		"xpos"			"c-320"
+		"ypos"			"10"
 		"zpos"			"1"
-		"wide"			"415"
-		"tall"			"240"
+		"wide"			"640"
+		"tall"			"364"
 		"autoResize"	"3"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
-		"fgcolor"		"Gray"
+		"fgcolor"		"200 200 200 255"
 	}
 
 	"HTMLMessage"
@@ -69,10 +103,10 @@
 		"ControlName"		"HTML"
 		"fieldName"		"HTMLMessage"
 		"xpos"			"c-320"
-		"ypos"			"0"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"640"
-		"tall"			"430"
+		"tall"			"364"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -83,10 +117,10 @@
 	
 	"ok"
 	{
-		"ControlName"		"CExButton"
+		"ControlName"		"CTFButton"
 		"fieldName"		"ok"
-		"xpos"			"r190"
-		"ypos"			"r40"
+		"xpos"			"c40"
+		"ypos"			"r94"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -102,7 +136,7 @@
 		"wrap"		"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"MenuSmallFont"
+		"font"			"HudSurfaceFontSmall"
 	}
 	
 	"MenuBG"
@@ -112,7 +146,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"		
-		"wide"			"f0"
+		"wide"			"0"
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -140,7 +174,7 @@
 		"xpos"			"0"
 		"ypos"			"r50"
 		"zpos"			"5"
-		"wide"			"f0"
+		"wide"			"0"
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"

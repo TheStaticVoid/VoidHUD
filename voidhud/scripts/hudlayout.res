@@ -110,15 +110,15 @@
         "fieldName"     "HudBowCharge"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "r80"   [$WIN32]
-        "xpos_minmode"  "r52"   [$WIN32]
-        "ypos"          "r21"   [$WIN32]
-        "ypos_minmode"  "r40"   [$WIN32]
+        "xpos"          "c-30"   [$WIN32]
+        //"xpos_minmode"  "r52"   [$WIN32]
+        "ypos"          "c120"   [$WIN32]
+        //"ypos_minmode"  "r40"   [$WIN32]
         "xpos"          "r112"  [$X360]
         "ypos"          "r45"   [$X360]
         "zpos"          "1"         // draw in front of ammo
         "wide"          "60"
-        "wide_minmode"  "50"
+        //"wide_minmode"  "50"
         "tall"          "8"
         "MeterFG"       "White"
         "MeterBG"       "Gray"
@@ -242,8 +242,8 @@
         "fieldName" "DisguiseStatus"
         "visible"   "1"
         "enabled"   "1"
-        "xpos"      "10"    [$WIN32]
-        "ypos"      "r70"   [$WIN32]
+        "xpos"      "150"    [$WIN32]
+        "ypos"      "r115"   [$WIN32]
         "xpos"      "50"    [$X360]
         "ypos"      "330"   [$X360]
         "wide"      "500"
@@ -748,9 +748,12 @@
 
         "item_wide" "135"
         
-        "show_avatar"       "0"
+        "show_avatar"       "1"
+        "avatar_xpos"       "-11"
+        "avatar_ypos"       "0"
+        
         "show_dead_icon"    "1"
-        "dead_xpos"         "1"
+        "dead_xpos"         "15"
         "dead_ypos"         "0"
         "dead_wide"         "16"
         "dead_tall"         "16"
@@ -761,7 +764,7 @@
         "icon_tall"         "16"
         "icon_wide"         "16"
         
-        "text_xpos"         "28"
+        "text_xpos"         "32"
     }
 
     HudHintDisplay

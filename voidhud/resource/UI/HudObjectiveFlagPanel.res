@@ -199,7 +199,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
 		"font"			"HudSquareFontLarge"
-		"fgcolor"		"TanLight"		
+		"fgcolor"		"White"		
 		
 		"if_hybrid"
 		{

@@ -2155,6 +2155,50 @@ Scheme
                 "antialias"     "1"
             }
         }
+        "HudSurfaceFontSmall"
+        {
+            "1"
+            {
+                "font"      "resource/fonts/surface-medium.otf"
+                "name"      "Surface"
+                "tall"      "18"
+                "weight"    "900"
+                "antialias" "1"
+            }
+        }
+        "HudSurfaceFontMedium"
+        {
+            "1"
+            {
+                "font"      "resource/fonts/surface-medium.otf"
+                "name"      "Surface"
+                "tall"      "24"
+                "weight"    "900"
+                "antialias" "1"
+            }
+        }        
+        "HudSurfaceFontLarge"
+        {
+            "1"
+            {
+                "font"      "resource/fonts/surface-medium.otf"
+                "name"      "Surface"
+                "tall"      "32"
+                "weight"    "900"
+                "antialias" "1"
+            }
+        }
+        "HudSquareFontSmallest"
+        {
+            "1"
+            {
+                "font"      "resource/fonts/square.ttf"
+                "name"      "SquareFont"
+                "tall"      "12"
+                "weight"    "900"
+                "antialias" "1"
+            }
+        }
         "HudSquareFontSmall"
         {
             "1"
@@ -3890,6 +3934,16 @@ Scheme
             {
                 "range" "0x0000 0xFFFF"
             }
-        }           
+        }
+        "7"
+        {
+            "font"  "resource/fonts/square.ttf"
+            "name"  "SquareFont"
+        }
+        "8"
+        {
+            "font"  "resource/fonts/surface-medium.otf"
+            "name"  "surface"
+        }
     }
 }

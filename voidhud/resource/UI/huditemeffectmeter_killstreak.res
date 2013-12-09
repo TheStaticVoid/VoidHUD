@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Sniper.res"
+"Resource/UI/HudItemEffectMeter_Killstreak.res"
 {
 	HudItemEffectMeter
 	{
@@ -17,13 +17,13 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
+		"xpos"			"999"
+		"ypos"			"999"
 		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"76"
+		"tall"			"44"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
@@ -34,7 +34,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"c166"
+		"xpos"					"c206"
 		"ypos"					"122"
 		"zpos"					"2"
 		"wide"					"50"
@@ -44,7 +44,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
+		"labelText"				"#TF_KillStreak"
 		"textAlignment"			"north"
 		"centerwrap"			"1"
 		"dulltext"				"0"
@@ -77,11 +77,11 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"c170"
+		"xpos"					"c210"
 		"ypos"					"90"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"40"	
+		"tall"					"40"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -93,15 +93,16 @@
 		"font"					"surface28"
 		"fgcolor" "255 255 255 255"
 	}
+	
 	"ItemEffectMeterCount2"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount2"
-		"xpos"					"c170"
+		"xpos"					"c210"
 		"ypos"					"90"
 		"zpos"					"2"
 		"wide"					"41"
-		"tall"					"41"	
+		"tall"					"41"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"

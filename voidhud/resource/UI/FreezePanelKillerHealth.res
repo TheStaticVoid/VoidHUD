@@ -81,6 +81,6 @@
         "enabled" "1"
         "labeltext" "%Health%"
         "textAlignment" "center"
-        "font" "hudfontsmall"
+        "font" "HudSquareFontSmallest"
     }    
 }

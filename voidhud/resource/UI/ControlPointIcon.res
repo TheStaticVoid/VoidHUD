@@ -110,16 +110,15 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"ControlPointTimer"
-		"font_minmode"	"ControlPointTimerSmaller"
+		"font"			"HudSquareFontSmall"
 	}
 				
 	"CPTimerBG"
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"CPTimerBG"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"r9999"
+		"ypos"			"r9999"
 		"zpos"			"-1"
 		"wide"		"66"
 		"wide_minmode"		"42"

@@ -20,14 +20,14 @@
         "fieldName"     "TopBar"
         "xpos"          "r9999"
         "ypos"          "r9999"
-        "tall"          "84"    [$WIN32]
+        "tall"          "0"    [$WIN32]
         //"tall_minmode"          "20"    [$WIN32]
         "tall"          "104"   [$X360]     
         "wide"          "f0"
         "autoResize"        "0"
         "pinCorner"     "0"
-        "visible"       "1"
-        "enabled"       "1"
+        "visible"       "0"
+        "enabled"       "0"
         "tabPosition"       "0"
     }
     "BottomBar"
@@ -71,25 +71,23 @@
         "ControlName"       "CExLabel"
         "fieldName"     "ReinforcementsLabel"
         "xpos"          "c-300" [$WIN32]
-        "xpos_minmode"  "c-300"
-        "xpos"          "c-200" [$X360]
-        "ypos"          "50"    [$WIN32]
-        "ypos_minmode"  "3"     [$WIN32]
+        //"xpos_minmode"  "c-300"
+        "xpos"          "c-150" [$X360]
+        "ypos"          "60"    [$WIN32]
+        //"ypos_minmode"  "3"     [$WIN32]
         "ypos"          "67"    [$X360]
         "ypos_hidef"    "79"
         "ypos_lodef"    "85"
         "wide"          "600"   [$WIN32]
         "wide_minmode"  "300"
-        "wide"          "400"   [$X360]
         "tall"          "18"
-        "tall_hidef"        "23"
         "autoResize"        "0"
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
         "labelText"     "#game_respawntime_in_secs"
         "textAlignment"     "center"
-        "font"          "HudFontMediumSmallSecondary"
+        "font"          "HudSurfaceFontSmall"
     }
     "BuyBackLabel"
     {
@@ -114,15 +112,13 @@
         "ControlName"       "CExLabel"
         "fieldName"     "MapLabel"
         "font"          "HudFontSmall"
-        "font_hidef"        "HudFontMedium"
-        "xpos"          "r260"  [$WIN32]
-        "ypos"          "16"    [$WIN32]
+        "xpos"          "r9999"  [$WIN32]
+        "ypos"          "r9999"    [$WIN32]
         "xpos"          "r285"  [$X360]
         "ypos"          "32"    [$X360]
         "wide"          "240"   [$WIN32]
         "wide"          "220"   [$X360]
         "tall"          "20"
-        "tall_hidef"        "30"
         "autoResize"        "0"
         "pinCorner"     "0"
         "visible"       "1"
@@ -135,12 +131,8 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "ClassOrTeamLabel"
-        "xpos"          "c-85"
-        "xpos_hidef"    "c-65"
-        "xpos_lodef"    "40"
-        "ypos"          "68"
-        "ypos_hidef"    "90"
-        "ypos_lodef"    "30"    
+        "xpos"          "r9999"
+        "ypos"          "r9999"
         "wide"          "170"
         "wide_hidef"    "130"
         "wide_lodef"    "220"
@@ -157,16 +149,13 @@
         "textAlignment"     "center"
         "textAlignment_lodef"       "north-west"
         "font"          "SpectatorKeyHints"
-        "font_hidef"    "HudFontSmallest"
-        "font_lodef"    "HudFontSmall"
-        "wrap_lodef"            "1"
     }
     "SwitchCamModeKeyLabel"
     {
         "ControlName"       "CExLabel"
         "fieldName"     "SwitchCamModeKeyLabel"
-        "xpos"          "5"     [$WIN32]
-        "ypos"          "10"    [$WIN32]
+        "xpos"          "r9999"     [$WIN32]
+        "ypos"          "r9999"    [$WIN32]
         "xpos"          "53"    [$X360]
         "ypos"          "40"    [$X360]
         "wide"          "60"    [$WIN32]
@@ -208,8 +197,8 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "CycleTargetFwdKeyLabel"
-        "xpos"          "5" [$WIN32]
-        "ypos"          "20"    [$WIN32]
+        "xpos"          "r9999" [$WIN32]
+        "ypos"          "r9999"    [$WIN32]
         "xpos"          "53"    [$X360]
         "ypos"          "50"    [$X360]     
         "wide"          "60"    [$WIN32]
@@ -229,8 +218,8 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "CycleTargetFwdLabel"
-        "xpos"          "80"    [$WIN32]
-        "ypos"          "20"    [$WIN32]
+        "xpos"          "r9999"    [$WIN32]
+        "ypos"          "r9999"    [$WIN32]
         "xpos"          "128"   [$X360]
         "ypos"          "50"    [$X360]     
         "wide"          "125"   [$WIN32]
@@ -250,8 +239,8 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "CycleTargetRevKeyLabel"
-        "xpos"          "5" [$WIN32]
-        "ypos"          "30"    [$WIN32]
+        "xpos"          "r9999" [$WIN32]
+        "ypos"          "r9999"    [$WIN32]
         "xpos"          "53"    [$X360]
         "ypos"          "60"    [$X360]     
         "wide"          "60"    [$WIN32]
@@ -271,8 +260,8 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "CycleTargetRevLabel"
-        "xpos"          "80"    [$WIN32]
-        "ypos"          "30"    [$WIN32]
+        "xpos"          "r9999"    [$WIN32]
+        "ypos"          "r9999"    [$WIN32]
         "xpos"          "128"   [$X360]
         "ypos"          "60"    [$X360]     
         "wide"          "125"   [$WIN32]

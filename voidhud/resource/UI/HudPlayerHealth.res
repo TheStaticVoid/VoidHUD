@@ -25,12 +25,14 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusHealthImage"
         "xpos"          "50"
-//      "xpos_minmode"  "60"
+        "xpos_minmode"  "44"
         "ypos"          "35"
-//      "zpos"          "4"
-        "wide"          "51"
-        "tall"          "51"
+        "ypos_minmode"  "10"
+        "zpos"          "0"
+        "wide"          "71"
+        "tall"          "71"
         "visible"       "0"
+        "visible_minmode"   "1"
         "enabled"       "1"
         "scaleImage"    "1" 
     }       
@@ -39,12 +41,14 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusHealthImageBG"
         "xpos"          "r9999"
-//      "xpos_minmode"  "58"
+        "xpos_minmode"  "41"
         "ypos"          "r9999"
-        "zpos"          "3"
-        "wide"          "55"
-        "tall"          "55"
+        "ypos_minmode"  "8"
+        "zpos"          "-1"
+        "wide"          "77"
+        "tall"          "77"
         "visible"       "0"
+        "visible_minmode"   "1"
         "enabled"       "1"
         "image"         "../hud/health_bg"
         "scaleImage"    "1" 
@@ -54,17 +58,17 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusHealthBonusImage"
         "xpos"          "52"    [$WIN32]
-//      "xpos_minmode"  "65"    [$WIN32]
+        "xpos_minmode"  "44"    [$WIN32]
         "xpos"          "83"    [$X360]
         "ypos"          "20"    [$WIN32]
-//      "ypos_minmode"  "40"    [$WIN32]
+        "ypos_minmode"  "12"    [$WIN32]
         "ypos"          "43"    [$X360]
         "zpos"          "2"
         "wide"          "55"    [$WIN32]
-//      "wide_minmode"  "40"    [$WIN32]
+        "wide_minmode"  "73"    [$WIN32]
         "wide"          "35"    [$X360]
         "tall"          "55"    [$WIN32]
-//      "tall_minmode"  "40"    [$WIN32]
+        "tall_minmode"  "73"    [$WIN32]
         "tall"          "35"    [$X360]
         "visible"       "0"
         "enabled"       "1"
