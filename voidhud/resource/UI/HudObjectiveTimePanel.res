@@ -5,6 +5,7 @@
         "ControlName"       "ImagePanel"
         "fieldName"     "TimePanelBG"
         "xpos"          "25"
+        "ypos_minmode"  "0"
         "ypos"          "0"
         "zpos"          "2"
         "wide"          "59"
@@ -115,8 +116,8 @@
         "xpos"          "r9999"    [$WIN32]
         "xpos"          "r9999"    [$X360]
         "ypos"          "r9999"
-        "ypos_hidef"    "-100"  //off-screen
-        "ypos_lodef"    "-100"  //off-screen
+        //"ypos_hidef"    "-100"  //off-screen
+        //"ypos_lodef"    "-100"  //off-screen
         "zpos"          "1"
         "wide"          "78"
         "tall"          "20"

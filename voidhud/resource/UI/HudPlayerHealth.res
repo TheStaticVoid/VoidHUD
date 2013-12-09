@@ -58,10 +58,10 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusHealthBonusImage"
         "xpos"          "52"    [$WIN32]
-        "xpos_minmode"  "44"    [$WIN32]
+        "xpos_minmode"  "43"    [$WIN32]
         "xpos"          "83"    [$X360]
         "ypos"          "20"    [$WIN32]
-        "ypos_minmode"  "12"    [$WIN32]
+        "ypos_minmode"  "11"    [$WIN32]
         "ypos"          "43"    [$X360]
         "zpos"          "2"
         "wide"          "55"    [$WIN32]
