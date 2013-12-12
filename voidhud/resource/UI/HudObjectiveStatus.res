@@ -19,13 +19,13 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudSquareFontSmall"
+		"delta_item_font"		"hudsansfontsmall"
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudSquareFontSmall"
+			"font"			"hudsansfontsmall"
 			"fgcolor"		"White"
 			"xpos"			"24"
 			"ypos"			"-3"

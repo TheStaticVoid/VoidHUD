@@ -24,6 +24,7 @@ Scheme
         "LightOrange"       "188 112 0 128"
         "GoalOrange"        "255 133 0"
         "TFOrange"          "145 73 59 255"
+        "Green"             "0 255 0 255"
         
         "White"             "235 235 235 255"
         "Red"               "192 28 0 140"
@@ -153,7 +154,7 @@ Scheme
         "UpgradeDisabledFg"     "64 59 52 255"
         "UpgradeDisabledBg"     "79 77 68 255"
         
-        "BuffedBlue"        "0 200 255 200"
+        "BuffedBlue"        "0 255 255 255"
         "LowHPRed"          "255 50 40 255"
     }
 
@@ -2188,46 +2189,57 @@ Scheme
                 "antialias" "1"
             }
         }
-        "HudSquareFontSmallest"
+        "HudSansFontSmallest"
         {
             "1"
             {
-                "font"      "resource/fonts/square.ttf"
-                "name"      "SquareFont"
+                "font"      "resource/fonts/Sansation_regular.ttf"
+                "name"      "Sansation"
                 "tall"      "12"
                 "weight"    "900"
                 "antialias" "1"
             }
         }
-        "HudSquareFontSmall"
+        "HudSansFontSmall"
         {
             "1"
             {
-                "font"      "resource/fonts/square.ttf"
-                "name"      "SquareFont"
+                "font"      "resource/fonts/Sansation_regular.ttf"
+                "name"      "Sansation"
                 "tall"      "18"
                 "weight"    "900"
                 "antialias" "1"
             }
         }
-        "HudSquareFontMedium"
+        "HudSansFontMedium"
         {
             "1"
             {
-                "font"      "resource/fonts/square.ttf"
-                "name"      "SquareFont"
+                "font"      "resource/fonts/Sansation_regular.ttf"
+                "name"      "Sansation"
                 "tall"      "24"
                 "weight"    "900"
                 "antialias" "1"
             }
         }
-        "HudSquareFontLarge"
+        "HudSansFontLarge"
         {
             "1"
             {
-                "font"      "resource/fonts/square.ttf"
-                "name"      "SquareFont"
+                "font"      "resource/fonts/sansation_regular.ttf"
+                "name"      "Sansation"
                 "tall"      "32"
+                "weight"    "900"
+                "antialias" "1"
+            }
+        }
+        "HudSansFontLargest"
+        {
+            "1"
+            {
+                "font"      "resource/fonts/Sansation_regular.ttf"
+                "name"      "Sansation"
+                "tall"      "48"
                 "weight"    "900"
                 "antialias" "1"
             }
@@ -3937,8 +3949,8 @@ Scheme
         }
         "7"
         {
-            "font"  "resource/fonts/square.ttf"
-            "name"  "SquareFont"
+            "font"  "resource/fonts/Sansation_regular.ttf"
+            "name"  "Sansation"
         }
         "8"
         {

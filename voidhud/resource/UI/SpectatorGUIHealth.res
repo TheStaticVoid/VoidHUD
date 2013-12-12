@@ -60,11 +60,11 @@
         "ControlName"   "CExLabel"
         "fieldName"     "PlayerStatusPlayerLevel"
         "xpos"          "8"
-        "ypos"          "9" [$WIN32]
+        "ypos"          "10" [$WIN32]
         "ypos"          "0" [$X360]
         "zpos"          "5"
         "wide"          "16"
-        "tall"          "12"
+        "tall"          "15"
         "visible"       "0"
         "enabled"       "0"
         "textAlignment" "center"    
@@ -85,6 +85,6 @@
         "enabled" "1"
         "labeltext" "%Health%"
         "textAlignment" "center"
-        "font" "HudSquareFontSmall"
+        "font" "hudsansfontsmall"
     }             
 }

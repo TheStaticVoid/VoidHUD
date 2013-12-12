@@ -16,13 +16,13 @@
         "fieldName" "HudWeaponAmmo"
         "visible" "1"
         "enabled" "1"
-        "xpos"  "r325"  [$WIN32]
+        "xpos"  "r330"  [$WIN32]
 //      "xpos_minmode"  "r85"   [$WIN32]
         "ypos"  "r117"  [$WIN32]
 //      "ypos_minmode"  "r36"   [$WIN32]
         "xpos"  "r131"  [$X360]
         "ypos"  "r77"   [$X360]
-        "wide"  "100"
+        "wide"  "150"
         "tall"  "45"
     }
     
@@ -218,7 +218,7 @@
 //      "xpos_minmode"          "61"
         "ypos"                  "r110"
 //      "ypos_minmode"          "r134"
-        "wide"                  "116"
+        "wide"                  "150"
         "tall"                  "180"
         "visible"               "1"
         "enabled"               "1"
@@ -259,8 +259,8 @@
         "xpos"      "c-126"
         "ypos"      "250"
         "wide"      "252"
-        "tall"      "35"
-        "tall_minmode"      "28"
+        "tall"      "40"
+//        "tall_minmode"      "28"
         "priority"  "40"
         "priority_lodef"    "5"
 
@@ -279,8 +279,8 @@
         "xpos"      "c-126"
         "ypos"      "250"
         "wide"      "200"
-        "tall"      "35"
-        "tall_minmode"      "28"
+        "tall"      "40"
+//       "tall_minmode"      "28"
         "priority"  "40"
         "priority_lodef" "35"
         
@@ -296,8 +296,8 @@
         "xpos"      "c-126"
         "ypos"      "300"
         "wide"      "200"
-        "tall"      "35"
-        "tall_minmode"      "28"
+        "tall"      "40"
+//       "tall_minmode"      "28"
         "priority"  "35"
 
         if_vr

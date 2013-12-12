@@ -8,7 +8,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudSquareFontSmall"
+		"delta_item_font"		"hudsansfontsmall"
 	}
 	
 	"AccountBG"
@@ -70,7 +70,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
         "fgcolor"       "white"
-		"font"			"HudSquareFontSmall"
+		"font"			"hudsansfontsmall"
 		//"font_lodef"	"HudFontMedium"
 	}
     	"AccountValueShadow"
@@ -93,7 +93,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
         "fgcolor"       "black"
-		"font"			"HudSquareFontSmall"
+		"font"			"hudsansfontsmall"
 		//"font_lodef"	"HudFontMedium"
 	}
 }

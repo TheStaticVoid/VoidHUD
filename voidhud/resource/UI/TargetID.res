@@ -42,52 +42,37 @@
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
-	}
-	"TargetIDBG_Spec_Blue"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"r9999"
-		"ypos"			"r9999"
-		"zpos"			"-1"
-		"wide"			"200"
-		"tall"	 		"5"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
-	}
-	"TargetIDBG_Spec_Red"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"r9999"
-		"ypos"			"r9999"
-		"zpos"			"-1"
-		"wide"			"200"
-		"tall"	 		"5"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
-		"image_lodef"	"../hud/color_panel_red"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
-	}
-	
+	}		
+//    "TargetBG_Spec_Blue"
+//	{
+//			"ControlName" "ImagePanel"
+//			"fieldName" "TargetBG_Spec_Blue"
+//			"xpos" 		"0"
+//			"ypos" 		"10"
+//			"zpos" 		"-6"
+//			"wide" 		"400"
+//			"tall" 		"5"
+//			"autoResize" "0"
+//			"pinCorner" "0"
+//			"visible" 	"1"
+//			"enabled" 	"1"
+//			"fillcolor" "0 100 255 200"
+//    }
+//    "TargetBG_Spec_Red"
+//	{
+//			"ControlName" "ImagePanel"
+//			"fieldName" "TargetBG_Spec_Red"
+//			"xpos" 		"0"
+//			"ypos" 		"10"
+//			"zpos" 		"-6"
+//			"wide" 		"400"
+//			"tall" 		"5"
+//			"autoResize" "0"
+//			"pinCorner" "0"
+//			"visible" 	"1"
+//			"enabled" 	"1"
+//			"fillcolor" "255 100 0 200"
+//    }
 	"TargetNameLabel"
 	{	
 		"ControlName"		"Label"
@@ -113,7 +98,7 @@
 		"fieldName"		"TargetDataLabel"
 		"font"			"TFFontMedium"
 		"xpos"			"34"
-		"ypos"			"25"	[$WIN32]
+		"ypos"			"22"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -149,11 +134,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"34"
-		"ypos"			"28"
+		"ypos"			"25"
 		"zpos"			"12"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_class_heavy"
 		"scaleImage"	"1"

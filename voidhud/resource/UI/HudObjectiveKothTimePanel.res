@@ -25,7 +25,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "TimePanelValue"
-            "font"          "HudSquareFontSmall"
+            "font"          "hudsansfontsmall"
           //  "font_minmode"  "HudFontSmall"
            // "font_lodef"    "HudFontMedium"
             "fgcolor"       "0 100 255 255"
@@ -74,7 +74,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "TimePanelValue"
-            "font"          "HudSquarefontSmall"
+            "font"          "hudsansfontsmall"
             //"font_minmode"  "HudFontSmall"
            // "font_lodef"    "HudFontMedium"
             "fgcolor"       "255 20 0 255"

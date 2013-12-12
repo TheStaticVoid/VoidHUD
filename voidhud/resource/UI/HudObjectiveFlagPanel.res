@@ -126,7 +126,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"HudSquareFontLarge"
+		"font"			"hudsansfontLarge"
 		"fgcolor"		"white"
 		
 		"if_hybrid"
@@ -162,7 +162,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"HudSquareFontLarge"
+		"font"			"hudsansfontLarge"
 		"fgcolor"		"Black"
 		
 		"if_hybrid"
@@ -198,7 +198,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"HudSquareFontLarge"
+		"font"			"hudsansfontLarge"
 		"fgcolor"		"White"		
 		
 		"if_hybrid"
@@ -234,7 +234,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"HudSquareFontLarge"
+		"font"			"hudsansfontLarge"
 		"fgcolor"		"Black"		
 		
 		"if_hybrid"

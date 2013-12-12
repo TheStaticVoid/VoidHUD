@@ -464,7 +464,7 @@
 		}
 	}
 
-	"ServerLabel"
+	"eLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"			"ServerLabel"
@@ -487,7 +487,7 @@
 		if_mvm
 		{
 			"xpos"				"c-211"
-			"ypos"				"84"
+			"ypos"				"54"
 			"wide"				"420"
 			"zpos"				"11"
 		}

@@ -18,17 +18,17 @@
     {
         "ControlName"   "CTFClassImage"
         "fieldName"     "PlayerStatusClassImage"
-        "xpos"          "r9999" [$WIN32]
-        "xpos_minmode"  "205"    [$WIN32]
-        "ypos"          "r9999" [$WIN32]
-        "ypos_minmode"  "r157"   [$WIN32]
+        "xpos_minmode"          "r9999" [$WIN32]
+        "xpos"  "210"    [$WIN32]
+        "ypos_minmode"          "r9999" [$WIN32]
+        "ypos"  "r157"   [$WIN32]
         "xpos"          "57"    [$X360]
         "ypos"          "r110"  [$X360]
         "zpos"          "2"
-        "wide"          "75"
-        "wide_minmode"  "47"
-        "tall"          "75"
-        "tall_minmode"  "47"
+        "wide_minmode"          "75"
+        "wide"  "47"
+        "tall_minmode"          "75"
+        "tall"  "47"
         "visible"       "1"
         "enabled"       "1"
         "image"         "../hud/class_scoutred"
@@ -127,15 +127,15 @@
         "ControlName"   "CTFPlayerModelPanel"
         "fieldName"     "classmodelpanel"
         
-        "xpos"          "100"   [$WIN32]
-//      "xpos_minmode"  "0" [$WIN32]
-        "ypos"          "r174"  [$WIN32]
-//      "ypos_minmode"  "r88"   [$WIN32]
+        "xpos"          "200"   [$WIN32]
+        "xpos_minmode"  "100" [$WIN32]
+        "ypos"          "r275"  [$WIN32]
+        "ypos_minmode"  "r174"   [$WIN32]
         "zpos"          "2"     
         "wide"          "75"
-//      "wide_minmode"  "52"
+        "wide_minmode"  "75"
         "tall"          "175"
-//      "tall_minmode"  "102"
+        "tall_minmode"  "175"
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "1"
