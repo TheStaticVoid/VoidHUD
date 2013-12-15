@@ -91,14 +91,14 @@
         "fieldName"     "HudDemomanCharge"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "r300"   [$WIN32]
+        "xpos"          "c-45"   [$WIN32]
         //"xpos_minmode"  "r52"   [$WIN32]
-        "ypos"          "r120"   [$WIN32]
+        "ypos"          "r170"   [$WIN32]
         //"ypos_minmode"  "r40"   [$WIN32]
         "xpos"          "r105"  [$X360]
         "ypos"          "r45"   [$X360]
         "zpos"          "1"         // draw in front of ammo
-        "wide"          "60"
+        "wide"          "80"
         //"wide_minmode"  "50"
         "tall"          "10"
         "MeterFG"       "White"
@@ -750,7 +750,9 @@
         
         "show_avatar"       "1"
         "avatar_xpos"       "-11"
-        "avatar_ypos"       "0"
+        "avatar_ypos"       "-1"
+		"avatar_tall"			"16"
+		"avatar_wide"		"16"
         
         "show_dead_icon"    "1"
         "dead_xpos"         "15"

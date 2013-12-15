@@ -214,7 +214,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"			"BlueTeamLabel"
-		"font"				"HudFontSmallBold"
+		"font"				"HudSansFontSmall"
 		"labelText"			"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"				"c-292"
@@ -238,7 +238,7 @@
 	{
 		"ControlName"					"CExLabel"
 		"fieldName"					"RedTeamLabel"
-		"font"						"HudFontSmallBold"
+		"font"						"HudSansFontSmall"
 		"labelText"					"%redteamname%"
 		"textAlignment"				"east"
 		//"textAlignment_minmode"		"west"
@@ -264,7 +264,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"			"BlueTeamScore"
-		"font"				"HudFontMediumBig"		//"HudFontMediumBigBold"
+		"font"				"HudSansFontMedium"		//"HudFontMediumBigBold"
 		"labelText"			"%blueteamscore%"
 		"textAlignment"		"center"
 		//"textAlignment_minmode""east"
@@ -290,7 +290,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"			"BlueTeamScoreShadow"
-		"font"				"HudFontMediumBig"		//"ScoreboardTeamNameLarge"
+		"font"				"HudSansFontMedium"		//"ScoreboardTeamNameLarge"
 		"labelText"			"%blueteamscore%"
 		"textAlignment"		"center"
 		//"textAlignment_minmode""east"
@@ -317,7 +317,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"			"RedTeamScore"
-		"font"				"HudFontMediumBig"		//"ScoreboardTeamNameLarge"
+		"font"				"HudSansFontLarge"		//"ScoreboardTeamNameLarge"
 		"labelText"			"%redteamscore%"
 		"textAlignment"		"center"
 		//"textAlignment_minmode""east"
@@ -343,7 +343,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"				"RedTeamScoreShadow"
-		"font"					"HudFontMediumBig"		//"ScoreboardTeamNameLarge"
+		"font"					"HudSansFontLarge"		//"ScoreboardTeamNameLarge"
 		"labelText"				"%redteamscore%"
 		"textAlignment"			"center"
 		//"textAlignment_minmode"	"east"
@@ -370,7 +370,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"			"BlueTeamPlayerCount"
-		"font"				"HudFontSmallest"
+		"font"				"HudSansFontSmallest"
 		"labelText"			"%blueteamplayercount%"
 		"textAlignment"		"west"
 		"xpos"				"c-197"
@@ -394,7 +394,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"				"RedTeamPlayerCount"
-		"font"					"HudFontSmallest"
+		"font"					"HudSansFontSmallest"
 		"labelText"				"%redteamplayercount%"
 		"textAlignment"			"east"
 		//"textAlignment_minmode"	"west"
@@ -866,7 +866,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"mapname"
-			"font"			"HudFontsmallBold"
+			"font"			"HudSansFontSmall"
 			"labelText"		"%mapname%"
 			"textAlignment"	"east"
 			//"textAlignment_minmode"	"west"
@@ -963,7 +963,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"HudFontMediumBig"
+			"font"			"HudSansFontMedium"
 			//"font_minmode"	"HudFontMediumsmall"
 			"labelText"		"%kills%"
 			"textAlignment"	"center"
@@ -984,14 +984,14 @@
 			{
 				"xpos"			"152"
 				"ypos"			"9"
-				"font"			"HudFontMediumsmall"
+				"font"			"HudSansFontMedium"
 			}
 		}		
 		"KD"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KD"
-			"font"			"HudFontbig"
+			"font"			"HudSansFontLargest"
 			//"font_minmode"	"HudFontMediumsmall"
 			"labelText"		"/"
 			"textAlignment"	"west"
@@ -1012,14 +1012,14 @@
 			{
 				"xpos"			"204"
 				"ypos"			"14"
-				"font"			"HudFontMediumsmall"
+				"font"			"HudSansFontMedium"
 			}
 		}
 		"Deaths"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"HudFontMediumBig"
+			"font"			"HudSansFontMedium"
 			//"font_minmode"	"HudFontMediumsmall"
 			"labelText"		"%deaths%"
 			"textAlignment"	"center"
@@ -1042,7 +1042,7 @@
 				"xpos"			"202"
 				"ypos"			"9"
 				"wide"			"60"
-				"font"			"HudFontMediumsmall"
+				"font"			"HudSansFontMedium"
 			}
 		}
 

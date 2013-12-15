@@ -79,12 +79,12 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "PlayerStatusHealthValue"
-        "xpos"          "45"
+        "xpos"          "40"
 //      "xpos_minmode"  "61"
         "ypos"          "30"    [$WIN32]
         "ypos"          "55"    [$X360]
         "zpos"          "5"
-        "wide"          "85"
+        "wide"          "90"
         "tall"          "37"
         "visible"       "1"
         "enabled"       "1"
@@ -98,12 +98,12 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "PlayerStatusHealthValueBG"
-        "xpos"          "47"
+        "xpos"          "42"
 //      "xpos_minmode"  "61"
         "ypos"          "32"    [$WIN32]
         "ypos"          "55"    [$X360]
+        "wide"          "90"
         "zpos"          "4"
-        "wide"          "85"
         "tall"          "37"
         "visible"       "1"
         "enabled"       "1"
@@ -151,7 +151,7 @@
         "fieldName"     "PlayerStatusMarkedForDeathImage"
         "xpos"          "150"
 //      "xpos_minmode"  "70"
-        "ypos"          "0"
+        "ypos"          "5"
         "zpos"          "7"
         "wide"          "32"
         "tall"          "32"
