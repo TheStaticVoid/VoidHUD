@@ -54,7 +54,7 @@
             "tall"      "10"
             "autoResize" "0"
             "pinCorner" "0"
-            "visible"   "1"
+            "visible"   "0"
             "enabled"   "1"
 			"image"		"../hud/color_panel_blu"
         "src_corner_height"     "23"                // pixels inside the image
@@ -74,7 +74,7 @@
             "tall"      "10"
             "autoResize" "0"
             "pinCorner" "0"
-            "visible"   "1"
+            "visible"   "0"
             "enabled"   "1"
 			"image"		"../hud/color_panel_red"
 		"src_corner_height"     "23"                // pixels inside the image
