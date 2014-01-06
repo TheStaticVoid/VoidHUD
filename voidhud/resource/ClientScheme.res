@@ -3957,5 +3957,10 @@ Scheme
             "font"  "resource/fonts/surface-medium.otf"
             "name"  "surface"
         }
+		"9" // replace with number not being used
+		{
+			"font" "resource/crosshairs.ttf"
+			"name" "Crosshairs"
+		}
     }
 }

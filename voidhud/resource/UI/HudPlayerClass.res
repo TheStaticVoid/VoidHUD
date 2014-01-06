@@ -19,9 +19,9 @@
         "ControlName"   "CTFClassImage"
         "fieldName"     "PlayerStatusClassImage"
         "xpos_minmode"          "r9999" [$WIN32]
-        "xpos"  "210"    [$WIN32]
+        "xpos"  "205"    [$WIN32]
         "ypos_minmode"          "r9999" [$WIN32]
-        "ypos"  "r157"   [$WIN32]
+        "ypos"  "r160"   [$WIN32]
         "xpos"          "57"    [$X360]
         "ypos"          "r110"  [$X360]
         "zpos"          "2"
@@ -127,9 +127,9 @@
         "ControlName"   "CTFPlayerModelPanel"
         "fieldName"     "classmodelpanel"
         
-        "xpos"          "200"   [$WIN32]
+        "xpos"          "193"   [$WIN32]
         "xpos_minmode"  "100" [$WIN32]
-        "ypos"          "r275"  [$WIN32]
+        "ypos"          "r285"  [$WIN32]
         "ypos_minmode"  "r174"   [$WIN32]
         "zpos"          "2"     
         "wide"          "75"
