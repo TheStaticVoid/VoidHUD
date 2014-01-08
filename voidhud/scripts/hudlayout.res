@@ -749,10 +749,10 @@
         "item_wide" "135"
         
         "show_avatar"       "1"
-        "avatar_xpos"       "-11"
+        "avatar_xpos"       "-12"
         "avatar_ypos"       "-1"
-		"avatar_tall"			"16"
-		"avatar_wide"		"16"
+		"avatar_tall"			"17"
+		"avatar_wide"		"17"
         
         "show_dead_icon"    "1"
         "dead_xpos"         "15"
@@ -866,9 +866,9 @@
         "visible"               "1"
         "enabled"               "1"
         "xpos"                  "c-150"
-        "ypos"                  "255"
+        "ypos"                  "215"
         "wide"                  "300"
-        "tall"                  "215"
+        "tall"                  "300"
     }
 
     ArenaWinPanel

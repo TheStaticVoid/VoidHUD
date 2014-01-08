@@ -90,7 +90,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"surface28"
+		"font"					"HudSansFontLarge"
 		"fgcolor" "255 255 255 255"
 	}
 	"ItemEffectMeterCount2"
@@ -110,7 +110,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"surface28"
+		"font"					"HudSansFontLarge"
 		"fgcolor" "0 0 0 255"
 	}
 }

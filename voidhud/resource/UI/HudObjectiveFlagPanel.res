@@ -273,12 +273,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"c-50"
-		"ypos"			"r9999"	[$WIN32]
+		"xpos"			"c-25"
+		"ypos"			"r73"	[$WIN32]
 		"ypos"			"r9999"	[$X360]
 		"zpos"			"10"
-		"wide"			"100"
-		"tall"			"100"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
