@@ -52,7 +52,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
-		"font"			"HudSurfaceFontMedium"
+		"font"			"surface24"
 		"fgcolor"		"240 240 240 255"
 	}
 	
@@ -128,7 +128,7 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"HudSurfaceFontSmall"
+		"font"			"surface14"
 		"fgcolor"		"Black"
 	}
 	
@@ -151,7 +151,7 @@
 		"brighttext"	"0"
 		"command"		"intro"
 		"default"		"1"
-		"font"			"HudSurfaceFontSmall"
+		"font"			"surface14"
 		"fgcolor"		"Black"
 	}
 	
@@ -173,7 +173,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"HudSurfaceFontSmall"
+		"font"			"surface14"
 		"fgcolor"		"Black"
 	}
 	

@@ -61,7 +61,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"		"hudsansfontLarge"
+		"font"		"sans32"
 		"fgcolor"				"255 255 255 255"
 		"fgcolor_override"		"255 255 255 255"
 	}
@@ -208,7 +208,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudSurfaceSmall"
+		"font"			"surface14"
 		"fgcolor"		"HudOffWhite"
 	}
 	
@@ -230,7 +230,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"hudsansfontsmallest"
+		"font"			"sans10"
 		"fgcolor"		"White"
 	}
 	
@@ -252,7 +252,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"hudsansfontsmallest"
+		"font"			"sans10"
 		"fgcolor"		"white"
 	}
 
@@ -319,7 +319,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"hudsansfontsmallest"
+		"font"			"sans10"
 		"fgcolor"		"White"
 	}		
 	
@@ -340,7 +340,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"hudsansfontsmallest"
+		"font"			"sans10"
 		"fgcolor"		"White"
 	}	
 
@@ -406,7 +406,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"hudsansfontsmallest"
+		"font"			"sans10"
 		"fgcolor"		"White"
 	}		
 	
@@ -427,7 +427,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"hudsansfontsmallest"
+		"font"			"sans10"
 		"fgcolor"		"White"
 	}	
 	"RandomFrame"

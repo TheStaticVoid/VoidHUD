@@ -67,7 +67,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudSurfaceFontMedium"
+		"font"			"surface24"
 		"fgcolor"		"240 240 240 255"
 	}	
 
@@ -136,7 +136,7 @@
 		"wrap"		"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"HudSurfaceFontSmall"
+		"font"			"surface14"
 	}
 	
 	"MenuBG"

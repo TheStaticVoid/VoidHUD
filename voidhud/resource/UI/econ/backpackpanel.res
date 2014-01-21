@@ -315,7 +315,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c185"
+		"xpos"			"c195"
 		"ypos"			"290"
 		"zpos"			"1"
 		"wide"			"20"
@@ -325,7 +325,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"&A"
+		"labelText"		"<"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -333,38 +333,7 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-	"PrevPageButtonMark"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PrevPageButtonMark"
-		"xpos"			"c202"
-		"ypos"			"290"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"<"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-	}
-	"NextPageButtonMark"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"NextPageButtonMark"
-		"xpos"			"c248"
-		"ypos"			"290"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		">"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-	}			
+	}		
 	
 	"CurPageLabel"
 	{
@@ -373,7 +342,7 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c215"
+		"xpos"			"c220"
 		"ypos"			"290"
 		"zpos"			"1"
 		"wide"			"40"
@@ -399,7 +368,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"&D"
+		"labelText"		">"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -414,10 +383,10 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"DragToNextPageButton"
 		"xpos"			"c290"
-		"ypos"			"142"
+		"ypos"			"154"
 		"zpos"			"1"
 		"wide"			"25"
-		"tall"			"55"
+		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -436,11 +405,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DragToPrevPageButton"
-		"xpos"			"c-318"
-		"ypos"			"142"
+		"xpos"			"c-315"
+		"ypos"			"154"
 		"zpos"			"1"
 		"wide"			"25"
-		"tall"			"55"
+		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -454,7 +423,7 @@
 		"Command"		""
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}
+	}		
 	
 	"CancelApplyToolButton"
 	{

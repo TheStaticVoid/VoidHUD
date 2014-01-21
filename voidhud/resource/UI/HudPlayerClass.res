@@ -5,9 +5,10 @@
     {
         "ControlName"   "EditablePanel"
         "fieldName"     "HudPlayerClass"
-        "xpos"          "10"
-        "ypos"          "0"
-//      "ypos_minmode"  "18"
+        "xpos"          "150"
+        "ypos"          "-80"
+        "ypos_minmode"    "18"
+        "xpos_minmode"    "60"
         "zpos"          "1"
         "wide"          "f0"
         "tall"          "480"
@@ -18,17 +19,15 @@
     {
         "ControlName"   "CTFClassImage"
         "fieldName"     "PlayerStatusClassImage"
-        "xpos_minmode"          "r9999" [$WIN32]
-        "xpos"  "205"    [$WIN32]
-        "ypos_minmode"          "r9999" [$WIN32]
-        "ypos"  "r160"   [$WIN32]
-        "xpos"          "57"    [$X360]
-        "ypos"          "r110"  [$X360]
+        "xpos"          "9999"  
+        //"xpos_minmode"    "15"    
+        "ypos"          "9999"  
+        //"ypos_minmode"    "r54"   
         "zpos"          "2"
-        "wide_minmode"          "75"
-        "wide"  "47"
-        "tall_minmode"          "75"
-        "tall"  "47"
+        "wide"          "75"
+        //"wide_minmode"    "37"
+        "tall"          "75"
+        //"tall_minmode"    "37"
         "visible"       "1"
         "enabled"       "1"
         "image"         "../hud/class_scoutred"
@@ -38,17 +37,15 @@
     {
         "ControlName"   "CTFImagePanel"
         "fieldName"     "PlayerStatusSpyImage"
-        "xpos"          "r9999"     [$WIN32]
-//      "xpos_minmode"  "-5"    [$WIN32]
-        "ypos"          "r9999" [$WIN32]
-//      "ypos_minmode"  "r44"   [$WIN32]
-        "xpos"          "35"    [$X360]
-        "ypos"          "r89"   [$X360]
+        "xpos"          "9999"      
+        //"xpos_minmode"    "-5"    
+        "ypos"          "9999"  
+        //"ypos_minmode"    "r44"   
         "zpos"          "2"
         "wide"          "55"
-        "wide_minmode"  "27"
+        //"wide_minmode"    "27"
         "tall"          "55"
-        "tall_minmode"  "27"
+        //"tall_minmode"    "27"
         "visible"       "1"
         "enabled"       "1"
         "image"         "../hud/class_spyred"
@@ -60,17 +57,15 @@
     {
         "ControlName"   "CTFImagePanel"
         "fieldName"     "PlayerStatusSpyOutlineImage"
-        "xpos"          "r9999"     [$WIN32]
-//      "xpos_minmode"  "-5"    [$WIN32]
-        "ypos"          "r9999" [$WIN32]
-//      "ypos_minmode"  "r44"   [$WIN32]
-        "xpos"          "35"    [$X360]
-        "ypos"          "r89"   [$X360]
+        "xpos"          "9999"      
+        //"xpos_minmode"    "-5"    
+        "ypos"          "9999"  
+        //"ypos_minmode"    "r44"   
         "zpos"          "7"
         "wide"          "55"
-        "wide_minmode"  "27"
+        //"wide_minmode"    "27"
         "tall"          "55"
-        "tall_minmode"  "27"
+        //"tall_minmode"    "27"
         "visible"       "0"
         "enabled"       "1"
         "image"         "../hud/class_spy_outline"
@@ -80,12 +75,10 @@
     {
         "ControlName"   "CTFImagePanel"
         "fieldName"     "PlayerStatusClassImageBG"
-        "xpos"          "r9999"     [$WIN32]
-//      "xpos_minmode"  "-10"       [$WIN32]
-        "ypos"          "r9999" [$WIN32]
-//      "ypos_minmode"      "r40"   [$WIN32]
-        "xpos"          "41"    [$X360]
-        "ypos"          "r82"   [$X360]
+        "xpos"          "9999"      
+        //"xpos_minmode"    "-10"       
+        "ypos"          "9999"  
+        //"ypos_minmode"        "r40"   
         "zpos"          "1"     
         "wide"          "100"
         "tall"          "50"
@@ -103,12 +96,10 @@
     {
         "ControlName"   "CTFImagePanel"
         "fieldName"     "classmodelpanelBG"
-        "xpos"          "r9999"     [$WIN32]
-//      "xpos_minmode"  "-15"       [$WIN32]
-        "ypos"          "r9999" [$WIN32]
-//      "ypos_minmode"      "r40"   [$WIN32]
-        "xpos"          "41"    [$X360]
-        "ypos"          "r82"   [$X360]
+        "xpos"          "9999"      
+        //"xpos_minmode"    "-15"       
+        "ypos"          "9999"  
+        //"ypos_minmode"        "r40"   
         "zpos"          "1"     
         "wide"          "109"
         "tall"          "50"
@@ -127,15 +118,15 @@
         "ControlName"   "CTFPlayerModelPanel"
         "fieldName"     "classmodelpanel"
         
-        "xpos"          "193"   [$WIN32]
-        "xpos_minmode"  "100" [$WIN32]
-        "ypos"          "r285"  [$WIN32]
-        "ypos_minmode"  "r174"   [$WIN32]
+        "xpos"          "0" 
+        "xpos_minmode"    "0" 
+        "ypos"          "r214"  
+        "ypos_minmode"    "r165"   
         "zpos"          "2"     
-        "wide"          "75"
-        "wide_minmode"  "75"
-        "tall"          "175"
-        "tall_minmode"  "175"
+        "wide"          "100"
+        "wide_minmode"    "77"
+        "tall"          "200"
+        "tall_minmode"  "152"
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "1"
@@ -224,114 +215,114 @@
             {
                 "fov"           "25"
                 "angles_x"      "-17"
-//              "angles_x_minmode"  "-10"
+                //"angles_x_minmode"  "-10"
                 "angles_y"      "220"
                 "angles_z"      "-10"
                 "origin_x"      "105"
                 "origin_y"      "-1"
                 "origin_z"      "-82"
-//              "origin_z_minmode"  "-52"
+                //"origin_z_minmode"  "-52"
             }
             "Sniper"
             {
                 "fov"           "25"
                 "angles_x"      "-10"
-//              "angles_x_minmode"  "0"
+                //"angles_x_minmode"  "0"
                 "angles_y"      "172"
                 "angles_z"      "0"
                 "origin_x"      "130"
                 "origin_y"      "-3"
                 "origin_z"      "-97"
-//              "origin_z_minmode"  "-57"
+                //"origin_z_minmode"  "-57"
             }
             "Soldier"
             {
                 "fov"           "25"
                 "angles_x"      "-10"
-//              "angles_x_minmode"  "-3"
+                //"angles_x_minmode"  "-3"
                 "angles_y"      "170"
                 "angles_z"      "0"
                 "origin_x"      "145"
                 "origin_y"      "-5"
-//              "origin_y_minmode"  "-8"
+                //"origin_y_minmode"  "-8"
                 "origin_z"      "-90"
-//              "origin_z_minmode"  "-50"
+                //"origin_z_minmode"  "-50"
             }
             "Demoman"
             {
                 "fov"           "25"
                 "angles_x"      "-13"
-//              "angles_x_minmode"  "-3"
+                //"angles_x_minmode"  "-3"
                 "angles_y"      "200"
                 "angles_z"      "0"
                 "origin_x"      "138"
                 "origin_y"      "-4"
                 "origin_z"      "-93"
-//              "origin_z_minmode"  "-53"
+                //"origin_z_minmode"  "-53"
             }
             "Medic"
             {
                 "fov"           "20"
                 "angles_x"      "-5"
-//              "angles_x_minmode"  "3"
+                //"angles_x_minmode"  "3"
                 "angles_y"      "178"
                 "angles_z"      "0"
                 "origin_x"      "150"
                 "origin_y"      "-5"
                 "origin_z"      "-96"
-//              "origin_z_minmode"  "-60"
+                //"origin_z_minmode"  "-60"
             }
             "Heavy"
             {
                 "fov"           "20"
                 "angles_x"      "-5"
-//              "angles_x_minmode"  "0"
+                //"angles_x_minmode"  "0"
                 "angles_y"      "200"
-//              "angles_y_minmode"  "210"
+                //"angles_y_minmode"  "210"
                 "angles_z"      "0"
                 "origin_x"      "200"
                 "origin_y"      "0"
                 "origin_z"      "-102"
-//              "origin_z_minmode"  "-60"
+                //"origin_z_minmode"  "-60"
             }
             "Pyro"
             {
                 "fov"           "20"
                 "angles_x"      "-5"
-//              "angles_x_minmode"  "0"
+                //"angles_x_minmode"  "0"
                 "angles_y"      "172"
                 "angles_z"      "0"
                 "origin_x"      "175"
                 "origin_y"      "-5"
                 "origin_z"      "-90"
-//              "origin_z_minmode"  "-50"
+                //"origin_z_minmode"  "-50"
             }
             "Spy"
             {
                 "fov"           "20"
                 "angles_x"      "-5"
-//              "angles_x_minmode"  "3"
+                //"angles_x_minmode"  "3"
                 "angles_y"      "160"
                 "angles_z"      "0"
                 "origin_x"      "160"
                 "origin_y"      "0"
-//              "origin_y_minmode"  "-3"
+                //"origin_y_minmode"  "-3"
                 "origin_z"      "-95"
-//              "origin_z_minmode"  "-60"
+                //"origin_z_minmode"  "-60"
             }
             "Engineer"
             {
                 "fov"           "20"
                 "angles_x"      "-10"
-//              "angles_x_minmode"  "0"
+                //"angles_x_minmode"  "0"
                 "angles_y"      "168"
                 "angles_z"      "0"
                 "origin_x"      "140"
-//              "origin_x_minmode"  "160"
+                //"origin_x_minmode"  "160"
                 "origin_y"      "-2"
-//              "origin_y_minmode"  "-7"
+                //"origin_y_minmode"  "-7"
                 "origin_z"      "-82"
-//              "origin_z_minmode"  "-52"
+                //"origin_z_minmode"  "-52"
             }
         }
     }
