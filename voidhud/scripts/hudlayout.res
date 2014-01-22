@@ -84,7 +84,7 @@
         "fieldName"     "HudDemomanCharge"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "c-90"   [$WIN32]
+        "xpos"          "c-80"   [$WIN32]
         //"xpos_minmode"  "r52"   [$WIN32]
         "ypos"          "r150"   [$WIN32]
         //"ypos_minmode"  "r40"   [$WIN32]
@@ -101,7 +101,7 @@
         "fieldName"     "HudBowCharge"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "c-90"   [$WIN32]
+        "xpos"          "c-80"   [$WIN32]
         //"xpos_minmode"  "r52"   [$WIN32]
         "ypos"          "r128"   [$WIN32]
         //"ypos_minmode"  "r40"   [$WIN32]
@@ -1015,7 +1015,7 @@
         "fieldName"     "HudDemomanPipes"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "c-105"  [$WIN32]
+        "xpos"          "c-100"  [$WIN32]
         //"xpos_minmode"  "r110"  [$WIN32]
         "ypos"          "r167"   [$WIN32]
         //"ypos_minmode"  "r30"   [$WIN32]

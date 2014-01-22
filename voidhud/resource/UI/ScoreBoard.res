@@ -32,7 +32,7 @@
         "wide"          "220"
         "enabled"       "1"
         "visible"       "1"
-        "fillcolor"     "100 100 255 200"
+        "fillcolor"     "50 100 255 200"
         
         //"xpos_minmode"    "r220"
         //"ypos_minmode"    "c168"
@@ -56,7 +56,7 @@
         "wide"          "220"
         "enabled"       "1"
         "visible"       "1"
-        "fillcolor"     "255 100 100 200"
+        "fillcolor"     "200 50 50 200"
         
         //"xpos_minmode"    "r220"
         //"ypos_minmode"    "c-40"
