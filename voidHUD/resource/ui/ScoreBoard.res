@@ -15,6 +15,7 @@
         "tabPosition"       "0"
         "avatar_width"      "57"    [$WIN32]
         "name_width"        "75"    [$WIN32]
+		"name_font"			"surface10"
         "status_width"      "15"    [$WIN32]
         "nemesis_width"     "15"    [$WIN32]
         "class_width"       "15"    [$WIN32]
@@ -351,17 +352,17 @@
         "labelText"     "%server%"
         "textAlignment"     "east"
         "textinsetx"        "20"
-        "xpos"          "c33"
-        "ypos"          "198"
+        "xpos"          "c-320"
+        "ypos"          "c-42"
         "zpos"          "2"
-        "wide"          "195"
+        "wide"          "300"
         "tall"          "20"
         "autoResize"        "0"
         "pinCorner"     "0"
         "visible"       "1" [$WIN32]
         "enabled"       "1"
         
-        "visible_minmode"       "0"
+        //"visible_minmode"       "0"
         
         if_mvm
         {
@@ -376,7 +377,7 @@
         "fgcolor"       "255 255 255 255"
         "labelText"     "%servertimeleft%"
         "textAlignment"     "west"
-        "xpos"          "c-310"
+        "xpos"          "c94"
         "ypos"          "c-42"
         "wide"          "195"
         "tall"          "20"

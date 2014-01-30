@@ -48,7 +48,7 @@
         "ControlName"           "ContinuousProgressBar"
         "fieldName"             "ChargeMeter"
         "font"                  "Default"
-        "xpos"                  "25"
+        "xpos"                  "20"
         "ypos"                  "23"
         //"ypos_minmode"          "0"
         //"xpos_minmode"          "0"
@@ -69,7 +69,7 @@
     {
         "ControlName"   "EditablePanel"
         "fieldName"     "PipesPresentPanel"
-        "xpos"          "46"
+        "xpos"          "41"
         "ypos"          "10"
         "zpos"          "1"
         "wide"          "100"
@@ -152,7 +152,7 @@
     {
         "ControlName"   "EditablePanel"
         "fieldName"     "NoPipesPresentPanel"
-        "xpos"          "48"
+        "xpos"          "43"
         "ypos"          "12"
         "zpos"          "1"
         "wide"          "100"

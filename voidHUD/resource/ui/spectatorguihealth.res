@@ -97,6 +97,22 @@
         "labeltext"  "%Health%" 
         "textAlignment" "center" 
         "font"   "sans18" 
+    }      
+	"PlayerStatusHealthValue2shadow" 
+    {  
+        "ControlName" "Label" 
+        "fieldName"  "PlayerStatusHealthValue2shadow" 
+        "xpos"   "-3" 
+        "ypos"   "7" 
+        "zpos"   "6" 
+        "wide"   "40" 
+        "tall"   "20" 
+        "visible"  "1" 
+        "enabled"  "1" 
+        "labeltext"  "%Health%" 
+        "textAlignment" "center" 
+        "font"   "sans18" 
+		"fgcolor_override"  "black"
     } 
     "PlayerStatusPlayerLevel"
     {

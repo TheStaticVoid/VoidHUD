@@ -207,7 +207,8 @@ event HudHealthBonusPulse
     Animate PlayerStatusHealthBonusImage    Alpha       "255"       Linear 0.0 0.2
     Animate PlayerStatusHealthBonusImage    Alpha       "0"         Linear 0.2 0.4
     Animate PlayerStatusHealthValue     FgColor     "BuffedHPBlue" Linear 0.0 0.0
-    Animate PlayerStatusHealthValue2    FgColor     "230 230 255 255"  Linear 0.0 0.0
+    Animate PlayerStatusHealthValue2    FgColor     "BuffedHPBlue"  Linear 0.0 0.0
+	Animate PlayerStatusHealthValueTargetID FgColor "BuffedHPBlue"  Linear 0.0 0.0
     RunEvent HudHealthBonusPulseLoop    0.4
 }
 
@@ -223,6 +224,7 @@ event HudHealthBonusPulseStop
     StopEvent HudHealthBonusPulseLoop 0.0
     Animate PlayerStatusHealthValue     FgColor     "TanLight"   Linear 0.0 0.0
     Animate PlayerStatusHealthValue2    FgColor     "TanLight"  Linear 0.0 0.0
+	Animate PlayerStatusHealthValueTargetID FgColor "TanLight" Linear 0.0 0.0
 }
 
 //===========================================
@@ -234,6 +236,7 @@ event HudHealthDyingPulse
     Animate PlayerStatusHealthBonusImage    Alpha       "0"         Linear 0.125 0.075
     Animate PlayerStatusHealthValue         FgColor     "LowHPRed"  Linear 0.0 0.0
     Animate PlayerStatusHealthValue2        FgColor     "LowHPRed"  Linear 0.0 0.0
+	Animate PlayerStatusHealthValueTargetID FgColor "LowHPRed"		Linear 0.0 0.0
     
     RunEvent HudHealthDyingPulseLoop    0.25
 }
@@ -250,6 +253,7 @@ event HudHealthDyingPulseStop
     StopEvent HudHealthDyingPulseLoop 0.0
     Animate PlayerStatusHealthValue         FgColor "TanLight"   Linear 0.0 0.0
     Animate PlayerStatusHealthValue2        FgColor "TanLight"  Linear 0.0 0.0
+	Animate PlayerStatusHealthValueTargetID FgColor "TanLight" Linear 0.0 0.0
 }
 
 //===========================================

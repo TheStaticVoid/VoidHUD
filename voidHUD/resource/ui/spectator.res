@@ -59,7 +59,7 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "ReinforcementsLabel"
-        "xpos"          "c-275" 
+        "xpos"          "c-290" 
         //"xpos_minmode"  "c-300"
         "ypos"          "50"    
         //"ypos_minmode"  "3"     

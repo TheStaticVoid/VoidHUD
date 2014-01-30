@@ -2613,6 +2613,98 @@ Scheme
                 "antialias" "1"
             }
         }
+		
+		// FOG'S CUSTOM CROSSHAIRS
+		"xHairSpread"
+		{
+			"1"
+			{
+				"name" "Crosshairs"
+				"tall" "28"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
+		"xSmallPlus"
+		{
+			"1"
+			{
+				"name" "Crosshairs"
+				"tall" "28"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
+		"xSemiMediumPlus"
+		{
+			"1"
+			{
+				"name" "Crosshairs"
+				"tall" "28"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
+		"xSimpleDot"
+		{
+			"1"
+			{
+				"name" "Crosshairs"
+				"tall" "28"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
+		"xSmallDot"
+		{
+			"1"
+			{
+				"name" "Crosshairs"
+				"tall" "28"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
+		"xHallowCross"
+		{
+			"1"
+			{
+				"name" "Crosshairs"
+				"tall" "28"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
+		"xLargeCircle"
+		{
+			"1"
+			{
+				"name" "Crosshairs"
+				"tall" "28"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
+		"xSmallHallowCross"
+		{
+			"1"
+			{
+				"name" "Crosshairs"
+				"tall" "28"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
+		"xSimpleSpread"
+		{
+			"1"
+			{
+				"name" "Crosshairs"
+				"tall" "28"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
     }
 
     //
@@ -4544,5 +4636,10 @@ Scheme
             "font"  "resource/fonts/Surface-Medium.otf"
             "name" "Surface"
         }
+		"12" // replace with number not being used
+		{
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "Crosshairs"
+		}
     }
 }

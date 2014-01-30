@@ -40,7 +40,31 @@
         "brighttext"    "0"
         "font"          "sans14"
     }
-
+    "ChargeLabelSHADOW"
+    {
+        "ControlName"   "CExLabel"
+        "fieldName"     "ChargeLabelSHADOW"
+        "xpos"          "31"
+        //"xpos_minmode"          "11"
+        "ypos"          "25"
+        //"ypos_minmode"          "11"
+        "zpos"          "2"
+        "wide"          "90"
+        "tall"          "15"
+        "autoResize"    "1"
+        "pinCorner"     "2"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "#TF_UberchargeMinHUD"
+        //"labelText_minmode"     "#TF_Ubercharge"
+        "textAlignment" "center"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "font"          "sans14"
+		"fgcolor_override" "black"
+    }
+	
     "IndividualChargesLabel"
     {
         "ControlName"   "CExLabel"

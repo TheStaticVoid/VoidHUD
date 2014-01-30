@@ -1,5 +1,143 @@
 "Resource/HudLayout.res"
 {
+    //custom crosshairs.  edit this part for them
+    
+    xHairSpread
+    {
+        "controlName" "CExLabel"
+        "fieldName" "xHairSpread"
+        "visible" "0"
+        "enabled" "1"
+        "zpos" "2"
+
+        "xpos" "c-100"
+        "ypos" "c-98"
+        "wide" "203"
+        "tall" "198"
+
+        "font" "xHairSpread"
+        "labelText" "0"
+        "textAlignment" "center"
+    
+        "fgcolor" "255 255 255 200"
+    }
+    xSmallPlus
+    {
+        "controlName" "CExLabel"
+        "fieldName" "xSmallPlus"
+        "visible" "0"
+        "enabled" "1"
+        "zpos" "2"
+
+        "xpos" "c-104"
+        "ypos" "c-97"
+        "wide" "203"
+        "tall" "196"
+
+        "font" "xSmallPlus"
+        "labelText" "1"
+        "textAlignment" "center"
+    
+        "fgcolor" "255 255 255 200"
+    }
+    xSemiMediumPlus
+    {
+        "controlName" "CExLabel"
+        "fieldName" "xSemiMediumPlus"
+        "visible" "0"
+        "enabled" "1"
+        "zpos" "2"
+
+        "xpos" "c-103"
+        "ypos" "c-98"
+        "wide" "203"
+        "tall" "198"
+
+        "font" "xSemiMediumPlus"
+        "labelText" "2"
+        "textAlignment" "center"
+    
+        "fgcolor" "255 255 255 200"
+    }
+    xSimpleDot
+    {
+        "controlName" "CExLabel"
+        "fieldName" "xSimpleDot"
+        "visible" "0"
+        "enabled" "1"
+        "zpos" "2"
+
+        "xpos" "c-103"
+        "ypos" "c-100"
+        "wide" "201"
+        "tall" "201"
+
+        "font" "xSimpleDot"
+        "labelText" "3"
+        "textAlignment" "center"
+    
+        "fgcolor" "255 255 255 200"
+    }
+    xLargeCircle
+    {
+        "controlName" "CExLabel"
+        "fieldName" "xLargeCircle"
+        "visible" "0"
+        "enabled" "1"
+        "zpos" "2"
+
+        "xpos" "c-103"
+        "ypos" "c-96"
+        "wide" "206"
+        "tall" "199"
+
+        "font" "xLargeCircle"
+        "labelText" "9"
+        "textAlignment" "center"
+    
+        "fgcolor" "255 255 255 200"
+    }
+    xSmallHallowCross
+    {
+        "controlName" "CExLabel"
+        "fieldName" "xSmallHallowCross"
+        "visible" "0"
+        "enabled" "1"
+        "zpos" "2"
+
+        "xpos" "c-100"
+        "ypos" "c-96"
+        "wide" "201"
+        "tall" "199"
+
+        "font" "xSmallHallowCross"
+        "labelText" "l"
+        "textAlignment" "center"
+    
+        "fgcolor" "255 255 255 200"
+    }
+    xSimpleSpread
+    {
+        "controlName" "CExLabel"
+        "fieldName" "xSimpleSpread"
+        "visible" "0"
+        "enabled" "1"
+        "zpos" "2"
+
+        "xpos" "c-102"
+        "ypos" "c-97"
+        "wide" "203"
+        "tall" "198"
+
+        "font" "xSimpleSpread"
+        "labelText" "f"
+        "textAlignment" "center"
+    
+        "fgcolor" "255 255 255 200"
+    }
+    // END CUSTOM CROSSHAIRS ------------------
+    
+    
     HudPlayerStatus
     {
         "fieldName" "HudPlayerStatus"
@@ -71,7 +209,7 @@
         "fieldName"     "HudMedicCharge"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "c-75"  [$WIN32]
+        "xpos"          "c-80"  [$WIN32]
         //"xpos_minmode"  "r100"  [$WIN32]
         "ypos"          "r165"   [$WIN32]
         //"ypos_minmode"  "r34"   [$WIN32]
@@ -101,7 +239,7 @@
         "fieldName"     "HudBowCharge"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "c-80"   [$WIN32]
+        "xpos"          "c-85"   [$WIN32]
         //"xpos_minmode"  "r52"   [$WIN32]
         "ypos"          "r128"   [$WIN32]
         //"ypos_minmode"  "r40"   [$WIN32]
