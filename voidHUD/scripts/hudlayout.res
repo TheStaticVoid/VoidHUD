@@ -101,7 +101,7 @@
     {
         "controlName" "CExLabel"
         "fieldName" "xSmallHallowCross"
-        "visible" "0"
+        "visible" "1"
         "enabled" "1"
         "zpos" "2"
 
