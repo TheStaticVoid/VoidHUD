@@ -6,7 +6,7 @@
         "visible"       "1"
         "enabled"       "1"
         "x_offset"      "40"
-        "xpos"          "r260"  [$WIN32]
+        "xpos"          "r300"  [$WIN32]
         "ypos"          "r120"   [$WIN32]
         //"xpos_minmode"  "r30"   [$WIN32]
         //"ypos_minmode"  "r94"   [$WIN32]
