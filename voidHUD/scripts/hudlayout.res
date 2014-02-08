@@ -101,7 +101,7 @@
     {
         "controlName" "CExLabel"
         "fieldName" "xSmallHallowCross"
-        "visible" "0"
+        "visible" "1"
         "enabled" "1"
         "zpos" "2"
 
@@ -422,7 +422,7 @@
         "visible"   "0"
         "enabled"   "1"
         "xpos"      "c-126"
-        "ypos"      "300"
+        "ypos"      "285"
         "wide"      "252"
         "tall"      "35"
         //"tall_minmode"      "28"
@@ -611,18 +611,18 @@
         "fieldName" "HudDeathNotice"
         "visible" "1"
         "enabled" "1"
-        "xpos"   "r640" [$WIN32]
-        "ypos"   "12"   [$WIN32]
+        "xpos"   "r635" [$WIN32]
+        "ypos"   "35"   [$WIN32]
         "xpos"   "r672" [$X360]
         "ypos"   "35"   [$X360]
         "wide"   "628"
         "tall"   "468"
 
-        "MaxDeathNotices" "6"
+        "MaxDeathNotices" "7"
         "IconScale"   "0.35"
         "LineHeight"      "15"
         "LineSpacing"     "0"
-        "CornerRadius"    "1"
+        "CornerRadius"    "2"
         "RightJustify"    "1"   // If 1, draw notices from the right
         
         "TextFont"      "Default"
@@ -632,10 +632,8 @@
         "IconColor"     "HudWhite"
         "LocalPlayerColor"  "HUDBlack"
 
-        "BaseBackgroundColor"   "46 43 42 220"      [$WIN32]
-        "LocalBackgroundColor"  "245 229 196 200"   [$WIN32]
-        "BaseBackgroundColor"   "32 32 32 255"      [$X360]
-        "LocalBackgroundColor"  "0 0 0 255"     [$X360]
+        "BaseBackgroundColor"   "46 43 42 150"      [$WIN32]
+        "LocalBackgroundColor"  "245 229 196 230"   [$WIN32]
     }
 
     HudVehicle
