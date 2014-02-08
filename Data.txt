@@ -1,0 +1,8 @@
+name=voidHUD
+desc=Custom TF2 HUD by StaticVoid
+creator=StaticVoid
+steamid=76561198075855372
+url=http://teamfortress.tv/forum/thread/14340-voidhud
+url=http://steamcommunity.com/groups/voidhud/
+url=https://github.com/TheStaticVoid/VoidHUD
+version=1.1
