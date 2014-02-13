@@ -4,7 +4,7 @@
     {
         "ControlName"       "CTFHudTimeStatus"
         "fieldName"         "BlueTimer"
-        "xpos"              "0"
+        "xpos"              "-1"
         //"xpos_minmode"      "20"
         "ypos"              "0"
         //"ypos_minmode"      "-14"

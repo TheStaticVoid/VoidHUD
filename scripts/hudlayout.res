@@ -371,9 +371,9 @@
         "visible"   "1"
         "enabled"   "1"
         "xpos"      "100"    [$WIN32]
-        "ypos_minmode"      "r70"   [$WIN32]
-        "xpos_minmode"      "10"    [$WIN32]
-        "ypos"      "r125"   [$WIN32]
+        "ypos_minmode"      "r125"   [$WIN32]
+        "xpos_minmode"      "100"    [$WIN32]
+        "ypos"      "r133"   [$WIN32]
         "wide"      "500"
         "tall"      "200"
         "TextFont"  "Default"   [$X360]
