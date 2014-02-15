@@ -1,1 +1,2 @@
-+ Added support for 4Plug
++ added new main menu
+- removed [unknown] label from spectator huds
