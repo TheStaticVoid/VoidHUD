@@ -76,7 +76,7 @@
         "labelText" "3"
         "textAlignment" "center"
     
-        "fgcolor" "255 255 255 200"
+        "fgcolor" "100 255 100 200"
     }
     xLargeCircle
     {
@@ -136,8 +136,13 @@
         "fgcolor" "255 255 255 200"
     }
     // END CUSTOM CROSSHAIRS ------------------
-    
-    
+	//
+    //
+    //
+	
+	
+	
+	
     HudPlayerStatus
     {
         "fieldName" "HudPlayerStatus"

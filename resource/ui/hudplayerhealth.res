@@ -33,7 +33,7 @@
         "visible_minmode" "0"
         "enabled"       "1"
         "scaleImage"    "1" 
-    }       
+    }    
     "PlayerStatusHealthImageBG"
     {
         "ControlName"   "ImagePanel"
