@@ -2,7 +2,7 @@ Q:  How do I enable a custom crosshair?
 A:  Go into scripts/hudlayout.res.  The beginning of the file is all the possible HUD crosshairs.  Change visible "0" to visible "1" if you want to enable a certain one.
 
 Q:  How do I install the HUD?
-A:  Navigate to your custom folder and drop the voidHUD folder in there.
+A:  Navigate to your custom folder and drop the contents of this folder in there.
 
 Q:  The fonts look messed up
 A:  Install the fonts manually by going into resource/fonts/...
