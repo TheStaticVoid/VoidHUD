@@ -2624,7 +2624,6 @@ Scheme
                 "antialias" "1"
             }
         }
-		
 		// FOG'S CUSTOM CROSSHAIRS
 		"xHairSpread"
 		{
@@ -4651,6 +4650,11 @@ Scheme
 		{
 			"font" "resource/fonts/crosshairs.ttf"
 			"name" "Crosshairs"
+		}
+		"13" //scoreboard font
+		{
+			"font" "resource/fonts/geosanslight.ttf"
+			"name" "Geosans"
 		}
     }
 }

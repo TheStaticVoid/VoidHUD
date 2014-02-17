@@ -8,29 +8,28 @@
         "ypos"          "0"
         "wide"          "f0"
         "tall"          "650"
-        "autoResize"        "0"
+        "autoResize"        "1"
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
         "tabPosition"       "0"
         "avatar_width"      "57"    [$WIN32]
-        "name_width"        "75"    [$WIN32]
-		"name_font"			"surface10"
+        "name_width"        "125"    [$WIN32]
         "status_width"      "15"    [$WIN32]
         "nemesis_width"     "15"    [$WIN32]
         "class_width"       "15"    [$WIN32]
-        "score_width"       "20"
+        "score_width"       "15"
         "ping_width"        "20"    [$WIN32]
     }
     "BlueScoreBG"
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "BlueScoreBG"
-        "xpos"          "c-225"
+        "xpos"          "c-265"
         "ypos"          "c-27"
         "zpos"          "0"
         "tall"          "30"
-        "wide"          "225"
+        "wide"          "265"
         "enabled"       "1"
         "visible"       "1"
         "fillcolor"     "50 100 255 200"
@@ -54,7 +53,7 @@
         "ypos"          "c-27"
         "zpos"          "0"
         "tall"          "30"
-        "wide"          "225"
+        "wide"          "265"
         "enabled"       "1"
         "visible"       "1"
         "fillcolor"     "200 50 50 200"
@@ -73,10 +72,10 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "MainBG"
-        "xpos"          "202"
+        "xpos"          "162"
         "ypos"          "240"
         "zpos"          "-1"
-        "wide"          "450"
+        "wide"          "530"
         "tall"          "180"
         "visible"       "1"
         "enabled"       "1"
@@ -96,12 +95,12 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "BlueTeamLabel"
-        "font"          "sansbold28"
+        "font"          "sansbold24"
         "fgcolor"       "255 255 255 255"
         "labelText"     "%blueteamname%"
         "textAlignment"     "west"
         "textinsetx"        "20"
-        "xpos"          "c-230"
+        "xpos"          "c-270"
         "ypos"          "c-27"  [$WIN32]
         "wide"          "200"
         "tall"          "20"
@@ -129,7 +128,7 @@
         "fgcolor"   "255 255 255 175"
         "labelText" "VS"
         "textAlignment" "center"
-        "xpos"      "c-200"
+        "xpos"      "c-190"
         "ypos"      "c-38"  [$WIN32]
         "zpos"      "3"
         "wide"      "400"
@@ -208,7 +207,7 @@
         "labelText"     "%blueteamplayercount%"
         "textAlignment"     "west"
         "textinsetx"        "20"
-        "xpos"          "c-228"
+        "xpos"          "c-268"
         "ypos"          "c-15"
         "wide"          "100"
         "tall"          "20"
@@ -232,12 +231,12 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "RedTeamLabel"
-        "font"          "sansbold28"
+        "font"          "sansbold24"
         "fgcolor"       "255 255 255 255"
         "labelText"     "%redteamname%"
         "textAlignment"     "east"
         "textinsetx"        "20"
-        "xpos"          "c30"
+        "xpos"          "c70"
         "ypos"          "c-27"  [$WIN32]
         "wide"          "200"
         "tall"          "20"
@@ -323,7 +322,7 @@
         "labelText"     "%redteamplayercount%"
         "textAlignment"     "east"
         "textinsetx"        "20"
-        "xpos"          "c28"
+        "xpos"          "c68"
         "ypos"          "c-15"
         "wide"          "200"
         "tall"          "20"
@@ -350,15 +349,14 @@
         "font"          "surface10"
         "fgcolor"       "255 255 255 255"
         "labelText"     "%server%"
-        "textAlignment"     "east"
-        "textinsetx"        "20"
-        "xpos"          "c-325"
+        "textAlignment"     "west"
+        "xpos"          "c-260"
         "ypos"          "c-42"
         "zpos"          "2"
-        "wide"          "300"
+        "wide"          "500"
         "tall"          "20"
         "autoResize"        "0"
-        "pinCorner"     "0"
+        "pinCorner"     "1"
         "visible"       "1" [$WIN32]
         "enabled"       "1"
         
@@ -376,8 +374,8 @@
         "font"          "surface10"
         "fgcolor"       "255 255 255 255"
         "labelText"     "%servertimeleft%"
-        "textAlignment"     "west"
-        "xpos"          "c99"
+        "textAlignment"     "east"
+        "xpos"          "c70"
         "ypos"          "c-42"
         "wide"          "195"
         "tall"          "20"
@@ -399,10 +397,10 @@
     {
         "ControlName"   "SectionedListPanel"
         "fieldName"     "BluePlayerList"
-        "xpos"          "c-227"
+        "xpos"          "c-267"
         "ypos"          "c0"
         "zpos"          "20"
-        "wide"          "225"
+        "wide"          "265"
         "tall"          "177"   [$WIN32]
         "pinCorner"     "0"
         "visible"       "1"
@@ -410,7 +408,7 @@
         "tabPosition"   "0"
         "autoresize"    "3"
         "linespacing"   "14"
-        "fgcolor"       "blue"
+        "fgcolor"       "blue"		
         
         //"xpos_minmode"    "r220"
         //"ypos_minmode"    "c74"
@@ -429,7 +427,7 @@
         "xpos"          "c-3"
         "ypos"          "c0"
         "zpos"          "20"
-        "wide"          "225"
+        "wide"          "265"
         "tall"          "177"   [$WIN32]
         "pinCorner"     "0"
         "visible"       "1"
@@ -463,8 +461,7 @@
         "fgcolor"       "255 255 255 255"
         "labelText"     "%spectators%"
         "textAlignment"     "west"
-        "textinsetx"        "20"
-        "xpos"          "c-325"
+        "xpos"          "c-265"
         "ypos"          "r64"   [$WIN32]
         "zpos"          "4"
         "wide"          "320"
@@ -490,7 +487,7 @@
         "xpos"          "c-320"
         "ypos"          "r70"   [$WIN32]
         "zpos"          "4"
-        "wide"          "320"
+        "wide"          "500"
         "tall"          "20"
         "autoResize"        "0"
         "pinCorner"     "0"
@@ -506,10 +503,10 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "LocalBG"
-        "xpos"          "c-317"
+        "xpos"          "c-367"
         "ypos"          "214"   [$WIN32]
         "zpos"          "2"
-        "wide"          "90"
+        "wide"          "100"
         "tall"          "206"
         "pinCorner"     "0"
         "visible"       "1"
@@ -760,7 +757,7 @@
     {
         "ControlName"       "EditablePanel"
         "fieldName"     "LocalPlayerStatsPanel"
-        "xpos"          "-5"
+        "xpos"          "-47"
         "ypos"          "85"
         "zpos"          "3"
         "wide"          "f0"
