@@ -63,7 +63,7 @@
     {
         "controlName" "CExLabel"
         "fieldName" "xSimpleDot"
-        "visible" "0"
+        "visible" "1"
         "enabled" "1"
         "zpos" "2"
 

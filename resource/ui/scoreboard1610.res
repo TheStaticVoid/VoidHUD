@@ -14,7 +14,7 @@
         "enabled"       "1"
         "tabPosition"       "0"
         "avatar_width"      "57"    [$WIN32]
-        "name_width"        "115"    [$WIN32]
+        "name_width"        "105"    [$WIN32]
         "status_width"      "15"    [$WIN32]
         "nemesis_width"     "15"    [$WIN32]
         "class_width"       "15"    [$WIN32]
@@ -72,7 +72,7 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "MainBG"
-        "xpos"          "162"
+        "xpos"          "120"
         "ypos"          "240"
         "zpos"          "-1"
         "wide"          "530"
