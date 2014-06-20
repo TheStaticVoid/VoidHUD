@@ -1012,6 +1012,30 @@
         "tall"                  "218"
     }
     
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldname" 			"HudEurekaEffectTeleportMenu"
+		"visible"				"1"
+		"enabled"			"1"
+		"xpos"					"c-125"
+		"ypos"					"c-55"
+		"wide"					"250"
+		"tall"					"195"
+		"PaintBackgroundType"	"0"
+	}
+	
+	"HudMenuTauntSelection"
+	{
+		"fieldname"		"HudMenuTauntSelection"
+		"visible"			"1"
+		"enabled"	 	"1"
+		"xpos"				"c-235"
+		"ypos"				"c-52"
+		"wide"				"470"
+		"tall"				"200"
+		"PaintBackgroundType"	"0"
+	}
+	
     PVEWinPanel
     {
         "fieldName"             "PVEWinPanel"
