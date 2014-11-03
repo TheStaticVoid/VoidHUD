@@ -1012,6 +1012,30 @@
         "tall"                  "218"
     }
     
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldname" 			"HudEurekaEffectTeleportMenu"
+		"visible"				"1"
+		"enabled"			"1"
+		"xpos"					"c-125"
+		"ypos"					"c-55"
+		"wide"					"250"
+		"tall"					"195"
+		"PaintBackgroundType"	"0"
+	}
+	
+	"HudMenuTauntSelection"
+	{
+		"fieldname"		"HudMenuTauntSelection"
+		"visible"			"1"
+		"enabled"	 	"1"
+		"xpos"				"c-235"
+		"ypos"				"c-52"
+		"wide"				"470"
+		"tall"				"200"
+		"PaintBackgroundType"	"0"
+	}
+	
     PVEWinPanel
     {
         "fieldName"             "PVEWinPanel"
@@ -1502,4 +1526,16 @@
         "bgcolor_override"  "0 0 0 0"
         "PaintBackgroundType"   "0" // rounded corners
     }
+    
+    
+    HudMiniGame
+    {
+        "fieldName"   "HudMiniGame"
+        "visible"     "1"
+        "enabled"     "1"
+        "xpos"        "0"
+        "ypos"      "0"
+        "wide"      "f0"
+        "tall"        "480"
+     }
 }
