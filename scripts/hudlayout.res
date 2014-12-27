@@ -1377,7 +1377,7 @@
         "NormalY"       "10"
         "EngineerY"     "170"
         "zpos"          "2"
-        "wide"          "200"
+        "wide"          "280"
         "tall"          "280"
         "visible"       "1"
         "enabled"       "1" 
@@ -1514,9 +1514,9 @@
     }
 
 
-    "CTFKillStreakNotice"
+    "CTFStreakNotice"
     {
-        "fieldName"     "CTFKillStreakNotice"
+        "fieldName"     "CTFStreakNotice"
         "xpos"          "0"         
         "ypos"          "0"
         "wide"          "640"
