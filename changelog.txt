@@ -1,3 +1,1 @@
-+ Added all of the rd_ custom content, currently unedited
-+ Updated hud for Spook Fortress 2 Event 2014
-+ Updated other files that had been changed since last update (Jun 20)
++ Updated for the new Mannpower update
